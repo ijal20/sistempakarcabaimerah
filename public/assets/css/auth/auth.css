@@ -1,0 +1,157 @@
+/* 
+ * auth.css - Global styles for authentication pages
+ * Simpan file ini di public/assets/css/auth/auth.css
+ */
+
+/* Card styling */
+.auth-card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    border: none;
+}
+
+.auth-card .card-header {
+    border-bottom: none;
+    padding: 25px 25px 0 25px;
+    background-color: white;
+}
+
+.auth-card .card-header h4 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.auth-card .card-header p {
+    color: #6c757d;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.auth-card .card-body {
+    padding: 25px;
+}
+
+/* Form elements */
+.form-control {
+    border-radius: 8px;
+    padding: 12px 15px;
+    border-color: #e9ecef;
+    background-color: #f8f9fa;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #4361ee;
+    box-shadow: 0 0 0 0.2rem rgba(67, 97, 238, 0.15);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.invalid-feedback {
+    font-size: 12px;
+}
+
+/* Button styles */
+.btn-auth {
+    border-radius: 8px;
+    padding: 12px 0;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #4361ee;
+    border-color: #4361ee;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #3a56d4;
+    border-color: #3a56d4;
+}
+
+/* Social login buttons */
+.btn-social {
+    border-radius: 8px;
+    padding: 12px 0;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-google {
+    color: #212529;
+    background-color: #fff;
+    border-color: #e9ecef;
+}
+
+.btn-google:hover {
+    background-color: #f8f9fa;
+}
+
+.btn-google .fab {
+    color: #DB4437;
+}
+
+/* Divider for "or" sections */
+.text-divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.text-divider::before,
+.text-divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.text-divider span {
+    padding: 0 15px;
+    color: #6c757d;
+    font-size: 13px;
+}
+
+/* Links */
+a.auth-link {
+    color: #4361ee;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+a.auth-link:hover {
+    text-decoration: underline;
+}
+
+/* Footer links */
+.auth-footer-links {
+    margin-top: 20px;
+    text-align: center;
+    color: #6c757d;
+}
+
+.auth-footer-links p {
+    margin-bottom: 8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .auth-card .card-header,
+    .auth-card .card-body {
+        padding: 20px;
+    }
+}
