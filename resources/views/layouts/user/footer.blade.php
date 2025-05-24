@@ -20,7 +20,7 @@
             <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                 <div class="text-muted">
                     <span class="font-monospace">Copyright &copy; {{ date('Y') }} 
-                        <a class="text-decoration-none text-muted fw-semibold hover-text-white" href="https://github.com/rizkyilhampra/spdhtc" target="_blank">{{ config('app.name') }}</a>
+                        <span class="text-decoration-none text-muted fw-semibold hover-text-white" href="" target="_blank">{{ config('app.name') }}</span>
                     </span>
                 </div>
             </div>
