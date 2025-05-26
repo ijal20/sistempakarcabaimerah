@@ -30,9 +30,9 @@
                         <div class="form-group">
                             <div class="d-flex justify-content-between">
                                 <label for="password" class="control-label">Kata Sandi</label>
-                                <a href="{{ route('password.request') }}" class="text-small">
+                                {{-- <a href="{{ route('password.request') }}" class="text-small">
                                     Lupa kata sandi?
-                                </a>
+                                </a> --}}
                             </div>
                             <div class="input-group">
                                 <input id="password" type="password"
@@ -63,7 +63,6 @@
             </div>
             <div class="mt-3 text-muted text-center">
                 <p>Belum punya akun? <a href="{{ route('register') }}">Daftar disini</a></p>
-                <p class="mt-2">atau <a href="{{ route('login-as-guest') }}">Masuk sebagai Tamu</a></p>
             </div>
         </div>
     </div>

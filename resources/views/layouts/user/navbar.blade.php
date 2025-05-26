@@ -32,7 +32,7 @@
                 </li>
             </ul>
        
-            @if (Auth::check() && Auth::user()->email_verified_at != null && Gate::check('asUser'))
+            @if (Auth::check() && Gate::check('asUser'))
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle d-flex align-items-center user-dropdown-toggle" href="#" 
