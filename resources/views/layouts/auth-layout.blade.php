@@ -35,7 +35,7 @@
         <div class=" mb-0 text-center">
             <small>
                 Copyright &copy; {{ date('Y') }}
-                <a href="https://github.com/rizkyilhampra/spdhtc" style="font-weight: 600; text-decoration: underline;" target="_blank">{{ config('app.name') }}</a>. All rights reserved.
+                <span style="font-weight: 600;" target="_blank">{{ config('app.name') }}</span>. All rights reserved.
             </small>
         </div>
     </footer>
