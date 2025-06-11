@@ -15,7 +15,7 @@
                     data-aos-delay="200" id="col2">
                     <span class="badge bg-primary mb-3 py-2 px-3 rounded-pill">Expert System</span>
                     <h1 class="display-5 fw-bold mb-4 text-start">
-                        Sistem Pakar Diagnosis Penyakit Tanaman Cabai
+                        Sistem Pakar Pendeteksi Penyakit Tanaman Cabai
                     </h1>
                     <p class="lead text-muted mb-4">Temukan penyakit yang menyerang tanaman cabai anda serta ketahui
                         penyebab dan solusi
@@ -42,7 +42,7 @@
                         Diagnosis Penyakit Tanaman Cabai
                     </h2>
                     <p class="lead text-muted mb-4" data-aos="fade-up" data-aos-delay="200">
-                        Gunakan sistem pakar kami untuk mendiagnosa penyakit pada tanaman cabai anda dengan cepat dan akurat
+                        Gunakan sistem pakar kami untuk mendeteksi penyakit pada tanaman cabai anda dengan cepat dan akurat
                     </p>
                 </div>
             </div>
@@ -76,7 +76,7 @@
                                     </div>
                                     <div class="d-grid">
                                         <button id="btn-diagnosis" class="btn btn-primary py-3 px-5 rounded-pill">
-                                            <i class="fas fa-stethoscope me-2"></i>Mulai Diagnosis Penyakit
+                                            <i class="fas fa-stethoscope me-2"></i>Mulai Deteksi Penyakit
                                         </button>
                                     </div>
                                 </div>
