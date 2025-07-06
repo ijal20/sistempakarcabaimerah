@@ -117,7 +117,7 @@
     font-weight: 500;
     padding: 0.5rem 1rem;
     transition: all 0.3s ease;
-    color: rgba(241, 242, 250, 0.94) !important;
+    color: rgba(202, 184, 20, 0.94) !important;
 }
 
 .navbar-nav .nav-link:before {
