@@ -81,7 +81,7 @@
 <style>
 /* Navbar Styling */
 .navbar {
-    background: linear-gradient(90deg, #1a237e, #1976d2);
+    background: linear-gradient(90deg,rgb(14, 83, 221),rgb(21, 24, 219));
     padding: 15px 0;
     transition: all 0.3s ease;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -117,7 +117,7 @@
     font-weight: 500;
     padding: 0.5rem 1rem;
     transition: all 0.3s ease;
-    color: rgba(255, 255, 255, 0.9) !important;
+    color: rgba(241, 242, 250, 0.94) !important;
 }
 
 .navbar-nav .nav-link:before {
@@ -127,7 +127,7 @@
     height: 2px;
     bottom: 0;
     left: 50%;
-    background-color: #ffffff;
+    background-color:rgb(250, 243, 243);
     visibility: hidden;
     transform: translateX(-50%);
     transition: all 0.3s ease;

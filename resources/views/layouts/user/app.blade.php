@@ -39,8 +39,8 @@
     <!-- Custom Style Overrides -->
     <style>
         :root {
-            --primary-color: #1e88e5; 
-            --primary-hover: #1565c0;
+            --primary-color:rgb(209, 216, 223); 
+            --primary-hover:rgb(80, 18, 42);
             --secondary-color: #2f9e44;
             --light-color: #f8f9fa;
             --dark-color: #212529;
@@ -182,7 +182,6 @@
             <div></div>
         </div>
     </div>
-    
     <main>
         <section>
             @include('layouts.user.navbar')
