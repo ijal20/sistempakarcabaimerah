@@ -19,7 +19,7 @@
 | P4 | Cercospora capsica |
 | P5 | Phytophthora capsici |
 | P6 | Fusarium oxysporum |
-|
+| P7 | Ralstonia solanacearum |
 
 
 ## Solusi Penyakit
@@ -114,6 +114,7 @@ Layu Bakteri Ralstonia
 | R1 | IF G1 AND G2 AND G3 AND G4 THEN P1 |
 | R2 | IF G5 AND G6 AND G7 AND G8 THEN P2 |
 | R3 | IF G9 AND G10 AND G11 AND G12 THEN P3 |
-| R4 | IF G13 AND G14 AND G15 AND G16 \THEN P4 |
+| R4 | IF G13 AND G14 AND G15 AND G16 THEN P4 |
 | R5 | IF G17 AND G18 AND G19 AND G20 THEN P5 |
 | R6 | IF G21 AND G22 AND G23 THEN P6 |
+| R7 | IF G24 AND G25 AND G26AND G27 THEN P7 |
