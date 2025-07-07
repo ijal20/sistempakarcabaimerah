@@ -111,13 +111,13 @@
     letter-spacing: 0.5px;
 }
 
-/* Nav Links */
+/* Nav Links  */
 .navbar-nav .nav-link {
     position: relative;
     font-weight: 500;
     padding: 0.5rem 1rem;
     transition: all 0.3s ease;
-    color: rgba(202, 184, 20, 0.94) !important;
+    color: rgba(249, 253, 251, 0.78) !important;
 }
 
 .navbar-nav .nav-link:before {
