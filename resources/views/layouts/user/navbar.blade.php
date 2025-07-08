@@ -81,7 +81,7 @@
 <style>
 /* Navbar Styling */
 .navbar {
-    background: linear-gradient(90deg,rgb(109, 138, 196),rgb(21, 11, 155));
+    background: linear-gradient(90deg,rgb(109, 138, 196),rgb(185, 183, 218));
     padding: 15px 0;
     transition: all 0.3s ease;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
